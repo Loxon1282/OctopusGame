@@ -9,14 +9,12 @@ public class EnemyBehavior : MonoBehaviour {
 	GameObject player;
 	public float speed=0.001f , distance=5.0f;
 	public float swimY=1.0f;
-	float posX,dist;
+	float posX;
 	private Vector3 _startPosition;
 	public Rigidbody2D rb2D;
-	private NavMeshAgent navComponent;
 
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
-		navComponent = this.gameObject.GetComponent<NavMeshAgent> ();
 
 		_startPosition = transform.position;
 		rb2D = GetComponent<Rigidbody2D>();
@@ -26,12 +24,11 @@ public class EnemyBehavior : MonoBehaviour {
 
 	void Update () {
 	//	Debug.Log ("ODLEGLOSC: "+Vector2.Distance (player.transform.position, transform.position));
-		dist = Vector2.Distance (player.transform.position, transform.position);
-		navComponent.SetDestination (player.transform.position);
+
 
 		Debug.Log (rb2D.velocity);
-		posX = Mathf.PingPong (Time.time, 20.0f);
-//		transform.position = _startPosition + new Vector3(posX,Mathf.Sin(Time.time)*swimY, 0.0f);
+		posX = Mathf.PingPong (Time.time, 60.0f);
+		transform.position = _startPosition + new Vector3(posX,Mathf.Sin(Time.time)*swimY, 0.0f);
 
 		Vector3 moveDirection = gameObject.transform.position - _startPosition; 
 		if (moveDirection != Vector3.zero) 

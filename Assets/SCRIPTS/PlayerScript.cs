@@ -23,7 +23,7 @@ public class PlayerScript : MonoBehaviour {
 		currentDistanceB = 360 - currentDistanceA;
 		currentSpeed = (currentDistanceA >= currentDistanceB) ? currentDistanceB : currentDistanceA;
 		//this.transform.rotation=(Quaternion.Euler(0, 0, direction * currentSpeed * 15f * Time.fixedDeltaTime));
-		this.transform.Rotate(new Vector3(0, 0, direction * currentSpeed * 0.6f * Time.fixedDeltaTime));
+		this.transform.Rotate(new Vector3(0, 0, direction * currentSpeed * 0.9f * Time.fixedDeltaTime));
 		if (Input.GetMouseButton (0)) {
 			if(cialo.velocity.magnitude < maxSpeed)
 			gameObject.GetComponent<Rigidbody2D> ().AddForce (new Vector2((Input.mousePosition.x - Screen.width / 2)/slow, (Input.mousePosition.y - Screen.height / 2)/slow));
@@ -39,7 +39,7 @@ public class PlayerScript : MonoBehaviour {
 	
 	public void CalculatePositions()
 	{
-	Vector2 zeroMouse = new Vector2(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2 + 40);
+	Vector2 zeroMouse = new Vector2(Input.mousePosition.x - Screen.width / 2, Input.mousePosition.y - Screen.height / 2 );
 	float angle = Vector2.SignedAngle(Vector2.up, zeroMouse);
 	currentDirection = (angle < 0) ? Mathf.Round(360-Mathf.Abs(angle)) : Mathf.Round(angle);
 	//	Debug.Log (currentDirection);
