@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 38afb40d8e1ed6e4a911e8e0ecbdcb58
-timeCreated: 1509116141
+timeCreated: 1510323156
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -31,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 2
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -43,9 +43,9 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spriteBorder: {x: 0, y: 326, z: 0, w: 279}
   spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -65,11 +65,209 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
-    physicsShape: []
+    outline:
+    - - {x: 147, y: -103}
+      - {x: 135, y: -79}
+      - {x: 211, y: -120}
+      - {x: 239, y: -116}
+      - {x: 239, y: -53}
+      - {x: 235, y: -9}
+      - {x: 199, y: 32}
+      - {x: 210, y: 72}
+      - {x: 202, y: 144}
+      - {x: 186, y: 156}
+      - {x: 155, y: 145}
+      - {x: 125, y: 105}
+      - {x: 80, y: 162}
+      - {x: 51, y: 168}
+      - {x: 83, y: 199}
+      - {x: 66, y: 207}
+      - {x: 15, y: 207}
+      - {x: 5, y: 205}
+      - {x: -36, y: 164}
+      - {x: -78, y: 138}
+      - {x: -158, y: 58}
+      - {x: -179, y: 50}
+      - {x: -194, y: 38}
+      - {x: -201, y: 19}
+      - {x: -200, y: 3}
+      - {x: -200, y: -1}
+      - {x: -201, y: -2}
+      - {x: -201, y: -6}
+      - {x: -200, y: 4}
+      - {x: -203, y: 10}
+      - {x: -212, y: 10}
+      - {x: -215, y: -13}
+      - {x: -215, y: -43}
+      - {x: -213, y: -49}
+      - {x: -204, y: -66}
+      - {x: -194, y: -82}
+      - {x: -133, y: -121}
+      - {x: -98, y: -130}
+      - {x: -23, y: -145}
+      - {x: 26, y: -144}
+      - {x: 52, y: -148}
+      - {x: 108, y: -148}
+      - {x: 127, y: -143}
+      - {x: 154, y: -113}
+      - {x: 155, y: -106}
+      - {x: 150, y: -103}
+    physicsShape:
+    - - {x: 150, y: -104}
+      - {x: 129, y: -104}
+      - {x: 123, y: -101}
+      - {x: 129, y: -89}
+      - {x: 142, y: -64}
+      - {x: 147, y: -63}
+      - {x: 151, y: -69}
+      - {x: 158, y: -78}
+      - {x: 175, y: -95}
+      - {x: 197, y: -108}
+      - {x: 224, y: -116}
+      - {x: 233, y: -115}
+      - {x: 237, y: -111}
+      - {x: 238, y: -105}
+      - {x: 238, y: -58}
+      - {x: 237, y: -42}
+      - {x: 230, y: -18}
+      - {x: 221, y: 1}
+      - {x: 215, y: 10}
+      - {x: 195, y: 32}
+      - {x: 203, y: 64}
+      - {x: 205, y: 92}
+      - {x: 204, y: 112}
+      - {x: 203, y: 123}
+      - {x: 195, y: 144}
+      - {x: 185, y: 151}
+      - {x: 176, y: 150}
+      - {x: 159, y: 142}
+      - {x: 143, y: 125}
+      - {x: 131, y: 102}
+      - {x: 128, y: 95}
+      - {x: 126, y: 88}
+      - {x: 117, y: 107}
+      - {x: 104, y: 127}
+      - {x: 81, y: 148}
+      - {x: 69, y: 157}
+      - {x: 47, y: 166}
+      - {x: 50, y: 181}
+      - {x: 56, y: 187}
+      - {x: 73, y: 192}
+      - {x: 76, y: 199}
+      - {x: 73, y: 202}
+      - {x: 59, y: 206}
+      - {x: 21, y: 206}
+      - {x: 5, y: 199}
+      - {x: -9, y: 185}
+      - {x: -17, y: 168}
+      - {x: -34, y: 163}
+      - {x: -61, y: 148}
+      - {x: -72, y: 139}
+      - {x: -87, y: 125}
+      - {x: -91, y: 121}
+      - {x: -114, y: 97}
+      - {x: -138, y: 72}
+      - {x: -151, y: 59}
+      - {x: -179, y: 49}
+      - {x: -192, y: 37}
+      - {x: -197, y: 28}
+      - {x: -198, y: 20}
+      - {x: -200, y: -1}
+      - {x: -202, y: 3}
+      - {x: -205, y: 6}
+      - {x: -208, y: 5}
+      - {x: -214, y: -13}
+      - {x: -214, y: -38}
+      - {x: -213, y: -45}
+      - {x: -208, y: -52}
+      - {x: -205, y: -60}
+      - {x: -204, y: -66}
+      - {x: -180, y: -89}
+      - {x: -162, y: -101}
+      - {x: -129, y: -116}
+      - {x: -117, y: -122}
+      - {x: -87, y: -130}
+      - {x: -60, y: -136}
+      - {x: -33, y: -140}
+      - {x: -13, y: -142}
+      - {x: 28, y: -142}
+      - {x: 49, y: -139}
+      - {x: 61, y: -136}
+      - {x: 76, y: -144}
+      - {x: 82, y: -147}
+      - {x: 108, y: -147}
+      - {x: 125, y: -140}
+      - {x: 153, y: -113}
+      - {x: 154, y: -106}
+    - - {x: -188, y: -20}
+      - {x: -190, y: -16}
+      - {x: -189, y: -7}
+      - {x: -189, y: 0}
+      - {x: -190, y: -2}
+      - {x: -189, y: -3}
+      - {x: -188, y: -26}
+      - {x: -187, y: -25}
+    - - {x: -108, y: -23}
+      - {x: -103, y: -12}
+      - {x: -103, y: -8}
+      - {x: -104, y: -7}
+      - {x: -105, y: -2}
+      - {x: -105, y: -4}
+      - {x: -101, y: -7}
+      - {x: -101, y: -8}
+      - {x: -98, y: -11}
+      - {x: -96, y: -11}
+      - {x: -93, y: -8}
+      - {x: -94, y: -4}
+      - {x: -94, y: 0}
+      - {x: -95, y: -8}
+      - {x: -100, y: -15}
+      - {x: -100, y: -16}
+      - {x: -108, y: -24}
+      - {x: -107, y: -24}
+    - - {x: -180, y: 0}
+      - {x: -182, y: -3}
+      - {x: -178, y: -17}
+      - {x: -176, y: -15}
   spritePackingTag: 
   userData: 
   assetBundleName: 
