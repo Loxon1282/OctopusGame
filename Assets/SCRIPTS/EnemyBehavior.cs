@@ -44,7 +44,6 @@ public class EnemyBehavior : MonoBehaviour {
 //			Debug.Log ("ATAK KURWA");
 //			}
 			
-	}
-		
+	}	
 
 }

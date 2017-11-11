@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0c18b19b2cf7c243992b234db83c86d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missileLifeTime: 3.25
+  missileLifeTime: 0.83
   customCrosshairPos: {x: 0, y: 0, z: 0}
 --- !u!198 &198285372217637826
 ParticleSystem:
@@ -3500,7 +3500,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 4ebb5a8a7740b3f45a9a81efbbd8c1b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
