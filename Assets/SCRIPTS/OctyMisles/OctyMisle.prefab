@@ -72,8 +72,11 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/SCRIPTS/OctyMisles/OctyMisle.prefab
 <<<<<<< HEAD:Assets/SCRIPTS/OctyMissiles/Octy_missle.prefab
 <<<<<<< HEAD:Assets/SCRIPTS/OctyMisles/OctyMisle.prefab
+=======
+>>>>>>> parent of 5843cfa... 213:Assets/SCRIPTS/OctyMisles/OctyMisle.prefab
 =======
 >>>>>>> parent of 5843cfa... 213:Assets/SCRIPTS/OctyMisles/OctyMisle.prefab
 --- !u!114 &114719952401692180
@@ -98,6 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0c18b19b2cf7c243992b234db83c86d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/SCRIPTS/OctyMisles/OctyMisle.prefab
 <<<<<<< HEAD:Assets/SCRIPTS/OctyMissiles/Octy_missle.prefab
   missileLifeTime: 0.83
   customCrosshairPos: {x: 0, y: 0, z: 0}
@@ -107,6 +111,11 @@ MonoBehaviour:
   particleLifeTime: 0
 --- !u!198 &198787563005492746
 >>>>>>> 5843cfa43c93a9c5d1138bf11c20861cdc6e468a:Assets/SCRIPTS/OctyMissiles/Octy_missle.prefab
+=======
+  missileLifeTime: 3.25
+  customCrosshairPos: {x: 0, y: 0, z: 0}
+--- !u!198 &198285372217637826
+>>>>>>> parent of 5843cfa... 213:Assets/SCRIPTS/OctyMisles/OctyMisle.prefab
 =======
   missileLifeTime: 3.25
   customCrosshairPos: {x: 0, y: 0, z: 0}
@@ -3520,9 +3529,13 @@ SpriteRenderer:
   m_Sprite: {fileID: 21300000, guid: 4ebb5a8a7740b3f45a9a81efbbd8c1b9, type: 3}
 =======
   m_SortingOrder: 0
+<<<<<<< HEAD:Assets/SCRIPTS/OctyMisles/OctyMisle.prefab
 <<<<<<< HEAD:Assets/SCRIPTS/OctyMissiles/Octy_missle.prefab
   m_Sprite: {fileID: 21300000, guid: 9bfc5c847b5b3144fb7807819af6db82, type: 3}
 >>>>>>> 5843cfa43c93a9c5d1138bf11c20861cdc6e468a:Assets/SCRIPTS/OctyMissiles/Octy_missle.prefab
+=======
+  m_Sprite: {fileID: 21300000, guid: 4ebb5a8a7740b3f45a9a81efbbd8c1b9, type: 3}
+>>>>>>> parent of 5843cfa... 213:Assets/SCRIPTS/OctyMisles/OctyMisle.prefab
 =======
   m_Sprite: {fileID: 21300000, guid: 4ebb5a8a7740b3f45a9a81efbbd8c1b9, type: 3}
 >>>>>>> parent of 5843cfa... 213:Assets/SCRIPTS/OctyMisles/OctyMisle.prefab
